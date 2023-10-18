@@ -12,8 +12,9 @@ public class Student {
 
     /**
      * Create a new student object.
-     * @param name: Name of the student
-     * @param studentNumber:  Unqiue id of the student.
+     * 
+     * @param name:          Name of the student
+     * @param studentNumber: Unqiue id of the student.
      */
     public Student(String name, int studentNumber) {
         this.name = name;
@@ -23,7 +24,7 @@ public class Student {
     public String getName() {
         return name;
     }
-    
+
     public int getId() {
         return studentNumber;
     }
@@ -47,8 +48,5 @@ public class Student {
     public void setNumberOfCourses(int numberOfCourses) {
         this.numberOfCourses = numberOfCourses;
     }
-
-
-    
 
 }
